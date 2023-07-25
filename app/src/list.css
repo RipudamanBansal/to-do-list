@@ -1,0 +1,13 @@
+.listElement {
+  background-color: rgb(210, 182, 235);
+  display: inline;
+  width: 10rem;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.listDiv {
+  display: block;
+}
