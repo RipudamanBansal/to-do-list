@@ -1,6 +1,6 @@
 import RemEle from "./RemEle";
 import UpdPos from "./UpdPos";
-import "./list.css";
+import "../Styles/list.css";
 
 export default function List({ list, setList }) {
   return (

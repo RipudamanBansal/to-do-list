@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./toAdd.css";
+import "../Styles/toAdd.css";
 import List from "./list";
 
 export default function ToAdd() {
