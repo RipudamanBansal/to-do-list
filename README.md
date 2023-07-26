@@ -1,2 +1,3 @@
 # to-do list
- A to-do list maker with React JS
+
+A to-do list maker with React JS

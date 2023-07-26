@@ -1,6 +1,10 @@
 input {
   display: block;
   margin: 5px;
+  padding: 5px;
+  border: 2px solid rgb(67, 58, 120);
+  border-radius: 7px;
+  color: rgb(67, 58, 120);
 }
 
 button {

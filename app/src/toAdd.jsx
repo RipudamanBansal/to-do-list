@@ -4,6 +4,9 @@ import List from "./list";
 
 export default function ToAdd() {
   const [list, setList] = useState([]);
+  // let initial = {
+  //   work: ''
+  // }
 
   let newList = {};
 
@@ -19,6 +22,7 @@ export default function ToAdd() {
         {
           ...newList,
           id: list.length,
+          checked: "unchecked",
         },
       ]);
     }
@@ -32,6 +36,7 @@ export default function ToAdd() {
           name="work"
           onChange={handleChange}
           placeholder="Schedule your work"
+          id="work"
         />
 
         <button onClick={handleAdd}>Add</button>
