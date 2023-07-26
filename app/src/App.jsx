@@ -1,4 +1,3 @@
-import "./App.css";
 import ToAdd from "./toAdd";
 
 function App() {

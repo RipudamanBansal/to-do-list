@@ -4,9 +4,6 @@ import List from "./list";
 
 export default function ToAdd() {
   const [list, setList] = useState([]);
-  // let initial = {
-  //   work: ''
-  // }
 
   let newList = {};
 
@@ -28,6 +25,10 @@ export default function ToAdd() {
     }
   }
 
+  let completed_work = list.filter((work) => {
+    return work.checked === "checked";
+  });
+
   return (
     <>
       <form>
@@ -43,6 +44,9 @@ export default function ToAdd() {
       </form>
 
       <div>
+        <h2>
+          Completed: {completed_work.length}/{list.length}
+        </h2>
         <List list={list} setList={setList}></List>
       </div>
     </>
