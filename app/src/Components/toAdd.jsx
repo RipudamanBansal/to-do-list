@@ -20,6 +20,7 @@ export default function ToAdd() {
           ...newList,
           id: list.length,
           checked: "unchecked",
+          pin: false,
         },
       ]);
     }
@@ -31,7 +32,7 @@ export default function ToAdd() {
 
   return (
     <>
-      <form>
+      <form className="form">
         <input
           type="text"
           name="work"
@@ -40,7 +41,9 @@ export default function ToAdd() {
           id="work"
         />
 
-        <button onClick={handleAdd}>Add</button>
+        <button onClick={handleAdd} className="addButton">
+          Add
+        </button>
       </form>
 
       <div>

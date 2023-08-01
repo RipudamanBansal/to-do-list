@@ -1,14 +1,16 @@
 input {
-  display: block;
   margin: 5px;
-  padding: 5px;
+  padding: 7px 10px;
   border: 2px solid rgb(67, 58, 120);
   border-radius: 7px;
   color: rgb(67, 58, 120);
 }
 
-button {
+.addButton {
   margin: 5px;
-  background: none;
   cursor: pointer;
+  padding: 5px 25px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  background-color: rgb(111, 195, 244);
 }
