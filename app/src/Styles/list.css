@@ -11,6 +11,7 @@
 
 .checked {
   text-decoration: line-through;
+  background-color: rgb(131, 99, 157);
 }
 
 .listDiv {

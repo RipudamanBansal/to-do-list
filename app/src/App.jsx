@@ -1,9 +1,11 @@
 import ToAdd from "./Components/toAdd";
 
 function App() {
-  return <>
-  <ToAdd></ToAdd>
-  </>;
+  return (
+    <>
+      <ToAdd></ToAdd>
+    </>
+  );
 }
 
 export default App;

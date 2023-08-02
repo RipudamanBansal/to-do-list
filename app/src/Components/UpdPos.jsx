@@ -5,7 +5,7 @@ export default function UpdPos({ id, list, setList }) {
   let newList = list;
 
   function handleUp() {
-    if (id - 1 >= 0 && list[id-1].pin !== true) {
+    if (id - 1 >= 0 && list[id - 1].pin !== true) {
       [newList[id - 1], newList[id]] = [newList[id], newList[id - 1]];
     }
     newList.map((work, index) => {
@@ -28,8 +28,12 @@ export default function UpdPos({ id, list, setList }) {
 
   return (
     <>
-      <button onClick={handleUp}>up</button>
-      <button onClick={handleDown}>down</button>
+      <button onClick={handleUp} className="updButton">
+        up
+      </button>
+      <button onClick={handleDown} className="updButton">
+        down
+      </button>
     </>
   );
 }

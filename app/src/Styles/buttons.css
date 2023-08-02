@@ -2,4 +2,14 @@
   background-color: rgb(208, 95, 95);
   border-radius: 5px;
   border: 2px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.updButton {
+  margin: 5px;
+  background-color: rgb(121, 121, 228);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
 }
